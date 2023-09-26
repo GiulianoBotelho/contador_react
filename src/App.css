@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin:  0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./assets/map.jpg);
+  background-position: cover;
+ 
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card{
+  opacity: 0.8;
+  width: 16vw;
+  height: 50vh;
+  border: solid;
+  border-radius: 30px;
+  background-image: url(./assets/super-mario-bros-movie-poster-phone-wallpaper-hd-uhdpaper.com-744@1@j.jpg);
+  background-size: cover;
+}
+
+section{
+  height: 20vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  
+}
+img{
+  width: 6vw;
+}
+
+button{
+  background-color: rgb(242, 194, 49);
+  height: 4vh;
+  width: 4vw;
+  border-radius: 100px;
+  transition: 500ms;
+  opacity: 0.6;
+}
+
+figure{
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+button:hover{
+  scale: 1.1;
+  transition: 500ms;
+  opacity: 1;
+
+}
+
+figcaption{
+  transition: 600ms;
+  scale: 1.1;
+}

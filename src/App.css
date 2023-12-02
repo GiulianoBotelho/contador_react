@@ -27,6 +27,7 @@ main{
   border-radius: 30px;
   background-image: url(./assets/super-mario-bros-movie-poster-phone-wallpaper-hd-uhdpaper.com-744@1@j.jpg);
   background-size: cover;
+ 
 }
 
 section{
@@ -66,3 +67,36 @@ figcaption{
   transition: 600ms;
   scale: 1.1;
 }
+
+@media (max-width:600px){
+
+.card{
+  width: 50%;
+}
+
+button{
+  width: 50%;
+}
+
+img{
+  width: 50%;
+}
+
+}
+
+@media (max-width:900px) and (min-width:700px){
+
+  .card{
+    width: 45%;
+    height: 100%;
+  }
+  
+  button{
+    width: 30%;
+  }
+  
+  img{
+    width: 50%;
+  }
+  
+  }
